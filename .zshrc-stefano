@@ -53,7 +53,7 @@ ZSH_THEME="stefano"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gitfast git-extras osx wd autojump svn dircycle colorize colored-man sudo cp web-search brew brew-cask sublime history)
+plugins=(git gitfast git-extras osx wd autojump svn dircycle colorize colored-man sudo cp web-search brew brew-cask sublime history history-substring-search)
 
 # User configuration
 
