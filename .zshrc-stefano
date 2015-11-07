@@ -100,3 +100,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ "$OSTYPE" == linux* || "$OSTYPE" == freebsd* ]]; then
  	eval `keychain --eval id_rsa`
 fi
+if [[ "$OSTYPE" == darwin* ]]; then
+    export PATH="$PATH:/usr/local/texlive/2014/bin/x86_64-darwin"
+fi
+export PATH="/usr/local/sbin:$PATH"
